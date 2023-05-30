@@ -3,8 +3,6 @@ package br.com.eljc;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -17,8 +15,6 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class GatewayServiceApplication {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(GatewayServiceApplication.class);
     
 	public static void main(String[] args) {
 		SpringApplication.run(GatewayServiceApplication.class, args);
